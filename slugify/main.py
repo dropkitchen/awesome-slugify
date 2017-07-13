@@ -1,10 +1,8 @@
 # coding=utf8
-
 import sys
 
-from unidecode import unidecode
 import regex as re
-
+from text_unidecode import unidecode
 
 # Don't set regex.DEFAULT_VERSION to regex.VERSION1 cause
 # this option will influence on 3rd party libs. E.g. `mailgun` and `flanker`.
